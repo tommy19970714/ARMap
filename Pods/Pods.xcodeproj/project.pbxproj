@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F485C22F7F6DA936A071D8F80695BBD /* Pods-ARMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3D000E248CB3C0DEF653DCE01CFBBC /* Pods-ARMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB214A9CFE44C92CC55CDE0FC6826BC /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */; };
+		37D76497105563A38191198C02631E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3DBFA5146ABB5655231E2EDC8EA94917 /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D6E72BB4C3561D0B435872ECE80160 /* PagingMenuController-dummy.m */; };
+		58917BC8E1610B47CE951F3D0F8EAC9E /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */; };
+		613DCCDFAE7B73316BAFE57C4627D59B /* Pods-ARMapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F4804885D5D808EDBC4A381C1263DC /* Pods-ARMapUITests-dummy.m */; };
+		6149CEA68EFAC40C8A3AEA09621C99AA /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F9F7842FABE8C9D6C4DA619BB21A87 /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E5D6BEA1F90F2C2ABE3F31AF0950D44 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */; };
+		74C0717BFDE6725B8197319D36AA566E /* Pods-ARMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD57D2E0D65A9C3DEE73F95B59B2C98 /* Pods-ARMap-dummy.m */; };
+		7B6582EEADF2FF72546AA76E094EA044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		81718A8DD68347F364D40ADCCB78972A /* Pods-ARMapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BDBAED5E799482AB18813C4AE1E271 /* Pods-ARMapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846E5CA01F3D6EBCE45085A1D0B0C982 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */; };
+		8834CC6E28F1F2D0C477F56038408BB3 /* Pods-ARMapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDA76C5D2270F1A636C228A23D2C5F9 /* Pods-ARMapTests-dummy.m */; };
+		957660A973E90928832154EBFD34ABD8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */; };
+		A946B450277DDCD1F311795D60E979C3 /* Pods-ARMapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F36D02DA62C9AF286B8C0C0FF8C3AE8B /* Pods-ARMapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD54A8EC84E109CD73007EFE54247DD /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */; };
+		BDF893F95D3ADCD76B46BB4C72C647B8 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */; };
+		D219F8DAC91376D9305E60E73AB4FD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DF3E0792A96A07FC0911D74A256BA784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA98CA3B22E2FE57EE465FEF4894B8B0 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26266E6A6A5D2DE4D38BB24B920FB67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADB3656BDFD85FB77E0CAB44BFF61E6;
+			remoteInfo = PagingMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B205CEA6725B2150C0D7C5DD3CD7CD /* Pods-ARMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMap.release.xcconfig"; sourceTree = "<group>"; };
+		1AEE4A406C9BCCF797E2AEA0F62B5B3D /* Pods-ARMapUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMapUITests-resources.sh"; sourceTree = "<group>"; };
+		1BF6ACBFEABC76E7776D41CD557832E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2588694274FC49BD5817903DAC891E01 /* Pods_ARMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARMapUITests.framework; path = "Pods-ARMapUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2684FB566882B3D81065753F4974DA82 /* Pods-ARMapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARMapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28FCF5852FB978C8FBF50C9ED6AC6359 /* Pods-ARMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMap-frameworks.sh"; sourceTree = "<group>"; };
+		299B923D95FCB7629D5F3D88CE501257 /* Pods-ARMapTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMapTests-resources.sh"; sourceTree = "<group>"; };
+		2F8A3D974053AE694ED3C14EBC47BE58 /* Pods-ARMapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARMapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		3A15A84DFA9B26E3CAAB4B4006E1C9E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
+		4547CCFA8AD3DB68281B4568FD0C00E5 /* Pods_ARMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARMapTests.framework; path = "Pods-ARMapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
+		4BD03E91B9491496675AA24714A0CDF8 /* Pods-ARMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DBAB114A5927B41A8F1B64A3FB7B828 /* Pods-ARMapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ARMapTests.modulemap"; sourceTree = "<group>"; };
+		4F2293125079246A5BEEFBFD47CC94FF /* Pods-ARMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		575F89717C4080FBA9DDAB7B21B9EF60 /* Pods-ARMapTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMapTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D29F839DBDD05130E92E5D222B1994E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
+		75A3654C09A0F25527B160D25E64D6AC /* Pods-ARMapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARMapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79DFA43996ADFEE11B14A40B14F3C876 /* Pods-ARMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
+		8CB37A401D0529F768A1FD1B88129F5D /* Pods-ARMapUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMapUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8CF4A61D1EE585014AB0BA1BE4826028 /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingMenuController.framework; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D6E72BB4C3561D0B435872ECE80160 /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
+		998F2905E6403AFF3F5CD8BF2F16F050 /* Pods-ARMapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ARMapUITests.modulemap"; sourceTree = "<group>"; };
+		9CD57D2E0D65A9C3DEE73F95B59B2C98 /* Pods-ARMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARMap-dummy.m"; sourceTree = "<group>"; };
+		A414E843E296DC0F6E6D91016C230B44 /* Pods-ARMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
+		A8F4804885D5D808EDBC4A381C1263DC /* Pods-ARMapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARMapUITests-dummy.m"; sourceTree = "<group>"; };
+		A8F9F7842FABE8C9D6C4DA619BB21A87 /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
+		ABED29618E7D905F79FBA6F3ECFD4A58 /* Pods-ARMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMap-resources.sh"; sourceTree = "<group>"; };
+		AEDA76C5D2270F1A636C228A23D2C5F9 /* Pods-ARMapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARMapTests-dummy.m"; sourceTree = "<group>"; };
+		BA301E68DA43EBAEB57EC98FC15D14FE /* Pods-ARMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMap.debug.xcconfig"; sourceTree = "<group>"; };
+		C3102EF4AFF2F09911F9F9BEEFA163A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C992D787C821470A34C88A91266C3CE1 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
+		D399960D8C113DEE8B5E1AFE7A5B37BA /* Pods-ARMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		DB0F3BE8E7890F93B3DB1EE68519F7EF /* Pods-ARMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		EC9E305FC0972576034A4ADC80662CCC /* Pods-ARMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ARMap.modulemap"; sourceTree = "<group>"; };
+		EEE26BD65453759B6EDF0A773969CF69 /* Pods-ARMapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARMapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F32CD915F54CED6BBA920198B7EFD144 /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
+		F36D02DA62C9AF286B8C0C0FF8C3AE8B /* Pods-ARMapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARMapTests-umbrella.h"; sourceTree = "<group>"; };
+		F5BDBAED5E799482AB18813C4AE1E271 /* Pods-ARMapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARMapUITests-umbrella.h"; sourceTree = "<group>"; };
+		FF3D000E248CB3C0DEF653DCE01CFBBC /* Pods-ARMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARMap-umbrella.h"; sourceTree = "<group>"; };
+		FFBC5D693040250B9A79123CAFA1E440 /* Pods_ARMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ARMap.framework; path = "Pods-ARMap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E7C3DF47D01DDC32E252295081A592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3E0792A96A07FC0911D74A256BA784 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BCF1FDAD557C1CCAD36956898AB4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6582EEADF2FF72546AA76E094EA044 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7DA41CBE2C1A2F8012747453B51C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D219F8DAC91376D9305E60E73AB4FD51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DD1B5317E05183670F2F7D919944D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D76497105563A38191198C02631E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E4A62DE751554B8356FA40D220E232 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D4FD24C880E2D10B8123E524B8B15B9 /* Pods-ARMap */,
+				C833990812A45DE30F45889852C8C830 /* Pods-ARMapTests */,
+				E083C55ECD97E8053C3D1D382FAD0896 /* Pods-ARMapUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AF0D07A1A79D0B6C60392DDB1D3D7146 /* Pods */,
+				C4302D0F47A828125CE672B736F472DD /* Products */,
+				53E4A62DE751554B8356FA40D220E232 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D4FD24C880E2D10B8123E524B8B15B9 /* Pods-ARMap */ = {
+			isa = PBXGroup;
+			children = (
+				6D29F839DBDD05130E92E5D222B1994E /* Info.plist */,
+				EC9E305FC0972576034A4ADC80662CCC /* Pods-ARMap.modulemap */,
+				4F2293125079246A5BEEFBFD47CC94FF /* Pods-ARMap-acknowledgements.markdown */,
+				DB0F3BE8E7890F93B3DB1EE68519F7EF /* Pods-ARMap-acknowledgements.plist */,
+				9CD57D2E0D65A9C3DEE73F95B59B2C98 /* Pods-ARMap-dummy.m */,
+				28FCF5852FB978C8FBF50C9ED6AC6359 /* Pods-ARMap-frameworks.sh */,
+				ABED29618E7D905F79FBA6F3ECFD4A58 /* Pods-ARMap-resources.sh */,
+				FF3D000E248CB3C0DEF653DCE01CFBBC /* Pods-ARMap-umbrella.h */,
+				BA301E68DA43EBAEB57EC98FC15D14FE /* Pods-ARMap.debug.xcconfig */,
+				06B205CEA6725B2150C0D7C5DD3CD7CD /* Pods-ARMap.release.xcconfig */,
+			);
+			name = "Pods-ARMap";
+			path = "Target Support Files/Pods-ARMap";
+			sourceTree = "<group>";
+		};
+		A3B3FE888C7856F03B4A02AADB61CFA8 /* PagingMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				A5F3C886032C1C3DF810E3299A8507BE /* MenuItemView.swift */,
+				41E3CDF73EDDD993A2923F66E9931C4B /* MenuItemViewCustomizable.swift */,
+				435C2155B552EAEF595FD41754C1D469 /* MenuView.swift */,
+				346A627446342408C826AA070E21E906 /* MenuViewCustomizable.swift */,
+				8A8FC7AAFC842A68527649A170751368 /* Pagable.swift */,
+				72C3FBF2A90FC95283E2A1C1B163492B /* PagingMenuController.swift */,
+				DC6F7CFBA13436012132DAC199D11E3D /* PagingMenuControllerCustomizable.swift */,
+				D59F5409963955A941F9CA9F7CB16751 /* PagingViewController.swift */,
+				AE1E98E7F4AD8E211674DE23EC367D59 /* Support Files */,
+			);
+			name = PagingMenuController;
+			path = PagingMenuController;
+			sourceTree = "<group>";
+		};
+		AE1E98E7F4AD8E211674DE23EC367D59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BF6ACBFEABC76E7776D41CD557832E8 /* Info.plist */,
+				C992D787C821470A34C88A91266C3CE1 /* PagingMenuController.modulemap */,
+				47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */,
+				94D6E72BB4C3561D0B435872ECE80160 /* PagingMenuController-dummy.m */,
+				F32CD915F54CED6BBA920198B7EFD144 /* PagingMenuController-prefix.pch */,
+				A8F9F7842FABE8C9D6C4DA619BB21A87 /* PagingMenuController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PagingMenuController";
+			sourceTree = "<group>";
+		};
+		AF0D07A1A79D0B6C60392DDB1D3D7146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3B3FE888C7856F03B4A02AADB61CFA8 /* PagingMenuController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4302D0F47A828125CE672B736F472DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF4A61D1EE585014AB0BA1BE4826028 /* PagingMenuController.framework */,
+				FFBC5D693040250B9A79123CAFA1E440 /* Pods_ARMap.framework */,
+				4547CCFA8AD3DB68281B4568FD0C00E5 /* Pods_ARMapTests.framework */,
+				2588694274FC49BD5817903DAC891E01 /* Pods_ARMapUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C833990812A45DE30F45889852C8C830 /* Pods-ARMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A15A84DFA9B26E3CAAB4B4006E1C9E4 /* Info.plist */,
+				4DBAB114A5927B41A8F1B64A3FB7B828 /* Pods-ARMapTests.modulemap */,
+				2F8A3D974053AE694ED3C14EBC47BE58 /* Pods-ARMapTests-acknowledgements.markdown */,
+				75A3654C09A0F25527B160D25E64D6AC /* Pods-ARMapTests-acknowledgements.plist */,
+				AEDA76C5D2270F1A636C228A23D2C5F9 /* Pods-ARMapTests-dummy.m */,
+				575F89717C4080FBA9DDAB7B21B9EF60 /* Pods-ARMapTests-frameworks.sh */,
+				299B923D95FCB7629D5F3D88CE501257 /* Pods-ARMapTests-resources.sh */,
+				F36D02DA62C9AF286B8C0C0FF8C3AE8B /* Pods-ARMapTests-umbrella.h */,
+				D399960D8C113DEE8B5E1AFE7A5B37BA /* Pods-ARMapTests.debug.xcconfig */,
+				79DFA43996ADFEE11B14A40B14F3C876 /* Pods-ARMapTests.release.xcconfig */,
+			);
+			name = "Pods-ARMapTests";
+			path = "Target Support Files/Pods-ARMapTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E083C55ECD97E8053C3D1D382FAD0896 /* Pods-ARMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3102EF4AFF2F09911F9F9BEEFA163A7 /* Info.plist */,
+				998F2905E6403AFF3F5CD8BF2F16F050 /* Pods-ARMapUITests.modulemap */,
+				EEE26BD65453759B6EDF0A773969CF69 /* Pods-ARMapUITests-acknowledgements.markdown */,
+				2684FB566882B3D81065753F4974DA82 /* Pods-ARMapUITests-acknowledgements.plist */,
+				A8F4804885D5D808EDBC4A381C1263DC /* Pods-ARMapUITests-dummy.m */,
+				8CB37A401D0529F768A1FD1B88129F5D /* Pods-ARMapUITests-frameworks.sh */,
+				1AEE4A406C9BCCF797E2AEA0F62B5B3D /* Pods-ARMapUITests-resources.sh */,
+				F5BDBAED5E799482AB18813C4AE1E271 /* Pods-ARMapUITests-umbrella.h */,
+				A414E843E296DC0F6E6D91016C230B44 /* Pods-ARMapUITests.debug.xcconfig */,
+				4BD03E91B9491496675AA24714A0CDF8 /* Pods-ARMapUITests.release.xcconfig */,
+			);
+			name = "Pods-ARMapUITests";
+			path = "Target Support Files/Pods-ARMapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		283CDF7E566D4AFCEA8E8966DA7F0F10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946B450277DDCD1F311795D60E979C3 /* Pods-ARMapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636903A7987B4045D2C3D197D60BA7E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81718A8DD68347F364D40ADCCB78972A /* Pods-ARMapUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F2B7C144DC8AC520A665A191C7A30E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F485C22F7F6DA936A071D8F80695BBD /* Pods-ARMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C302DBC5B51659D06BBA33D41FB129 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6149CEA68EFAC40C8A3AEA09621C99AA /* PagingMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		011C071D180F06AEFE616028C3CF00E2 /* Pods-ARMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCCE3CB9F47D225B4E26436BE701AEB /* Build configuration list for PBXNativeTarget "Pods-ARMapTests" */;
+			buildPhases = (
+				2A04ADD8F054028C84CDEF3823D44499 /* Sources */,
+				E6DD1B5317E05183670F2F7D919944D5 /* Frameworks */,
+				283CDF7E566D4AFCEA8E8966DA7F0F10 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARMapTests";
+			productName = "Pods-ARMapTests";
+			productReference = 4547CCFA8AD3DB68281B4568FD0C00E5 /* Pods_ARMapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		320978ED6BB98A7FC55507093DA6E61F /* Pods-ARMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51ED4991E364BCDCE42658E374651032 /* Build configuration list for PBXNativeTarget "Pods-ARMapUITests" */;
+			buildPhases = (
+				2BB37E1BAA5564AD5315A11F274B983A /* Sources */,
+				61BCF1FDAD557C1CCAD36956898AB4C5 /* Frameworks */,
+				636903A7987B4045D2C3D197D60BA7E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARMapUITests";
+			productName = "Pods-ARMapUITests";
+			productReference = 2588694274FC49BD5817903DAC891E01 /* Pods_ARMapUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974BAC4FE33349DBFEA2FDAE7D508C0A /* Build configuration list for PBXNativeTarget "PagingMenuController" */;
+			buildPhases = (
+				934C8100011617FC9736BF48C821CFDD /* Sources */,
+				03E7C3DF47D01DDC32E252295081A592 /* Frameworks */,
+				B5C302DBC5B51659D06BBA33D41FB129 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagingMenuController;
+			productName = PagingMenuController;
+			productReference = 8CF4A61D1EE585014AB0BA1BE4826028 /* PagingMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E69FF307581CEA3154B5D7D8987EA7D3 /* Pods-ARMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1958513F7EDA7818193A9BF34C4C5EB0 /* Build configuration list for PBXNativeTarget "Pods-ARMap" */;
+			buildPhases = (
+				3FB5B751F807EF4A6D5F3CE081BBDC40 /* Sources */,
+				AD7DA41CBE2C1A2F8012747453B51C8B /* Frameworks */,
+				63F2B7C144DC8AC520A665A191C7A30E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432583740A8D4ADC2CCEB620270D5149 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARMap";
+			productName = "Pods-ARMap";
+			productReference = FFBC5D693040250B9A79123CAFA1E440 /* Pods_ARMap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C4302D0F47A828125CE672B736F472DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */,
+				E69FF307581CEA3154B5D7D8987EA7D3 /* Pods-ARMap */,
+				011C071D180F06AEFE616028C3CF00E2 /* Pods-ARMapTests */,
+				320978ED6BB98A7FC55507093DA6E61F /* Pods-ARMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A04ADD8F054028C84CDEF3823D44499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8834CC6E28F1F2D0C477F56038408BB3 /* Pods-ARMapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB37E1BAA5564AD5315A11F274B983A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613DCCDFAE7B73316BAFE57C4627D59B /* Pods-ARMapUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB5B751F807EF4A6D5F3CE081BBDC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C0717BFDE6725B8197319D36AA566E /* Pods-ARMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934C8100011617FC9736BF48C821CFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5D6BEA1F90F2C2ABE3F31AF0950D44 /* MenuItemView.swift in Sources */,
+				2BB214A9CFE44C92CC55CDE0FC6826BC /* MenuItemViewCustomizable.swift in Sources */,
+				957660A973E90928832154EBFD34ABD8 /* MenuView.swift in Sources */,
+				BDF893F95D3ADCD76B46BB4C72C647B8 /* MenuViewCustomizable.swift in Sources */,
+				EA98CA3B22E2FE57EE465FEF4894B8B0 /* Pagable.swift in Sources */,
+				3DBFA5146ABB5655231E2EDC8EA94917 /* PagingMenuController-dummy.m in Sources */,
+				58917BC8E1610B47CE951F3D0F8EAC9E /* PagingMenuController.swift in Sources */,
+				AFD54A8EC84E109CD73007EFE54247DD /* PagingMenuControllerCustomizable.swift in Sources */,
+				846E5CA01F3D6EBCE45085A1D0B0C982 /* PagingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432583740A8D4ADC2CCEB620270D5149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingMenuController;
+			target = 6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */;
+			targetProxy = 26266E6A6A5D2DE4D38BB24B920FB67D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10765F05939176E20F14E435A482F9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA301E68DA43EBAEB57EC98FC15D14FE /* Pods-ARMap.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMap/Pods-ARMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11CF34860EE903F3C8E69CD6324B9DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D399960D8C113DEE8B5E1AFE7A5B37BA /* Pods-ARMapTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMapTests/Pods-ARMapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARMapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12AE0C797F9F708F0CFFA53E089831A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14CDBACE13AC8B31EC7E16BD121E0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B205CEA6725B2150C0D7C5DD3CD7CD /* Pods-ARMap.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMap/Pods-ARMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DED4D22F0B9B114D27C4BACCFB87A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A414E843E296DC0F6E6D91016C230B44 /* Pods-ARMapUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMapUITests/Pods-ARMapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARMapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A23469A63D911C40C00453149987A779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD03E91B9491496675AA24714A0CDF8 /* Pods-ARMapUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMapUITests/Pods-ARMapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARMapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8460044B60C78800BFFDB5DC822183A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DFA43996ADFEE11B14A40B14F3C876 /* Pods-ARMapTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMapTests/Pods-ARMapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ARMapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F87F7D8BD90A35789426BB6ADD6ECC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E28D7EB25D4FB594C55F62F85CAD02 /* PagingMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PagingMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1958513F7EDA7818193A9BF34C4C5EB0 /* Build configuration list for PBXNativeTarget "Pods-ARMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10765F05939176E20F14E435A482F9D7 /* Debug */,
+				14CDBACE13AC8B31EC7E16BD121E0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51ED4991E364BCDCE42658E374651032 /* Build configuration list for PBXNativeTarget "Pods-ARMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DED4D22F0B9B114D27C4BACCFB87A1 /* Debug */,
+				A23469A63D911C40C00453149987A779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974BAC4FE33349DBFEA2FDAE7D508C0A /* Build configuration list for PBXNativeTarget "PagingMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87F7D8BD90A35789426BB6ADD6ECC47 /* Debug */,
+				12AE0C797F9F708F0CFFA53E089831A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCCE3CB9F47D225B4E26436BE701AEB /* Build configuration list for PBXNativeTarget "Pods-ARMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CF34860EE903F3C8E69CD6324B9DFC /* Debug */,
+				C8460044B60C78800BFFDB5DC822183A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
